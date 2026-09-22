@@ -17,13 +17,17 @@
 // const heading = React.createElement(
 //   "h1",
 
-//   { id: "heading", xyz: "abc" }, // props
+//   { id: "heading", xyz: "abc" }, // props & attributes
 //   "welcome to React Ayush",
 // ); //children
 
 // console.log(heading);
 
 // ****************************************************************
+
+
+import React from "react";
+import ReactDOM from "react-dom/client"
 
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child1" }, [
